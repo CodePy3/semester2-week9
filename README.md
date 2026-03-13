@@ -3,7 +3,7 @@
 ## Models of data structures
 
 - linear data structures: stacks, queues and linked-lists
-- tree data structures: the binary tree
+- nonlinear data structures: the binary tree
 
 ## Implementation of data structures
 
