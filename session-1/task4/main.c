@@ -13,10 +13,17 @@ int main( void ) {
     Queue *queue = createQueue();
 
     // test join 
+    join(queue, 7);
+    join(queue, 2);
+    join(queue, 4);
     // - use traverseI() to display the nodes
     // - which pointer do you pass to traverseI(): front or back?
+    traverseI(queue);
 
     // test leave 
+    leave(queue);
+    leave(queue);
+    traverseI(queue);
     // - take care to free detached memory
 
     // free queue memory

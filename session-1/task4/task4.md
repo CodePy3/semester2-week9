@@ -10,7 +10,7 @@ Queue: { Node *back, Node *front, int size }
 `createQueue()` + Node operations
 
 ## Queue operations: 
-
+ 
 `join()` and `leave()`
 
 ## Display: 

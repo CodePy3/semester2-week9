@@ -21,7 +21,7 @@ Stack *createStack( void ) {
  * push - add a new Node item at the top of the stack
  */
 void push( Stack *stack, int val ) {
-    Node *new = createNode( createData( val ) );
+    Node *new = createNode( createData( val ) ); // creates a new instance of Node (new) using function createData
 
     new->next = stack->top;           // add node at top
     stack->top = new;                 // move stack top

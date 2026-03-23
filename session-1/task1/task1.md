@@ -5,7 +5,7 @@
 
 Data: { int value }
 
-Node: { Data *data, Node *next }
+Node: { Data *data, Node *next } 
 
 ### Memory management: 
 

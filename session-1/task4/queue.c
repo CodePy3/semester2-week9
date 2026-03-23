@@ -38,7 +38,7 @@ void join( Queue *queue, int val ) {
     return;
 }
 
-/*
+/* 
  * remove a node at the front
  */
 Node *leave( Queue *queue ) {

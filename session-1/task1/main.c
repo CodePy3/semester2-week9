@@ -17,7 +17,7 @@ int main( void ) {
     second->next = third;
     
     // print the data by following links
-    traverseI( first );
+    traverseW( first );
 
     // free all node memory (using traversal)
     freeNodes( first );
